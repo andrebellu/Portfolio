@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+p,
+a {
+  @apply text-white;
+  font-family: "VT323", monospace;
+}
+
+p {
+  @apply text-xl;
+}
+
+a {
+  @apply underline transition-all duration-300 ease-in-out;
+}
+
+.nav:hover {
+  --tw-shadow-color: #ff00ff;
+  --tw-shadow: var(--tw-shadow-colored);
+  --tw-drop-shadow: drop-shadow(0 25px 25px #ff00ff);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #ff00ff;
+}
+
+.greetings > h1 {
+  width: 17ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
