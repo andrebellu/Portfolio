@@ -10,7 +10,7 @@
     </div>
 
     <div
-      class="flex justify-center items-center flex-col h-[calc(100vh-100px)] text-center px-1" 
+      class="flex justify-center items-center flex-col lg:h-[calc(100vh-100px)] h-[calc(100vh-100px)] text-center px-1" 
     >
       <div class="greetings">
         <h1 class="text-4xl">Hello, I'm Andrea</h1>
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="footer flex justify-start px-1">
+    <div class="footer flex justify-start px-5">
       <p class="text-2xl text-glitch opacity-60">Made with Svelte</p>
     </div>
   </Animate>
