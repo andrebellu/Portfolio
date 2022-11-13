@@ -1,6 +1,6 @@
 <script>
-  import Animate from "../components/Animate.svelte";
-  import Clock from "../components/Clock.svelte";
+  import Animate from "../lib/Animate.svelte";
+  import Clock from "../lib/Clock.svelte";
 </script>
 
 <main>

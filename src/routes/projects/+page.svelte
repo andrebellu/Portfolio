@@ -1,8 +1,8 @@
 <script>
-  import Animate from "../../components/Animate.svelte";
+  import Animate from "../../lib/Animate.svelte";
 
-  import Cards from "../../components/Cards.svelte";
-  import Filter from "../../components/Filter.svelte";
+  import Cards from "../../lib/Cards.svelte";
+  import Filter from "../../lib/Filter.svelte";
 </script>
 
 <main>
