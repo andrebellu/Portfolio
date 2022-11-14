@@ -14,7 +14,7 @@
 </script>
 
 <main>
-  <span class="countdown font-mono text-2xl text-glitch opacity-60">
+  <span class="countdown font-mono text-2xl text-glitch">
     <span style="--value:{hours};" />h
     <span style="--value:{minutes};" />m
     <span style="--value:{seconds};" />s
